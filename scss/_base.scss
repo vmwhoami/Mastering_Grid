@@ -10,9 +10,34 @@ $color-grey-light-2:#aaa;
 $color-grey-dark-1:#54483A;
 $color-grey-dark-2:#6D5D4B;
 
+$primary-font: 'Nunito',
+sans-serif;
+$josefin:'Josefin Sans',
+sans-serif;
 
-// font-family: 'Josefin Sans', sans-serif;
 
-body{
-    background-color: red;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $primary-font;
+    color: $color-grey-dark-2;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 80vh min-content auto 40vw repeat(3, min-content);
 }
