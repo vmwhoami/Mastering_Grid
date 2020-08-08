@@ -21,6 +21,7 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content auto 40vw repeat(3, min-content);
+  grid-template-columns: repeat(8, minmax(min-content, 14rem));
 }
 
 .sidebar {
@@ -41,6 +42,9 @@ body {
 
 .story__pictures {
   background-color: lightblue;
+}
+.story__content {
+  background-color: lightseagreen;
 }
 
 .homes {
