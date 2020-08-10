@@ -1,6 +1,8 @@
 .features {
-    background-color: indigo;
+
     grid-column: center-start/center-end;
+
+    padding: 15rem;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
