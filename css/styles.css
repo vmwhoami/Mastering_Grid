@@ -24,6 +24,17 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 }
 
+.heading, .heading-4, .heading-3, .heading-2, .heading-1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.heading-4 {
+  font-size: 1.7rem;
+}
+.heading-4--light {
+  color: #f9f7f6;
+}
 .sidebar {
   background-color: red;
   grid-column: sidebar-start/sidebar-end;
@@ -47,6 +58,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.feature__icon {
+  height: 7.5rem;
+  width: 7.5rem;
+  color: #101d2c;
+}
 .story__pictures {
   background-color: lightblue;
   grid-column: full-start/col-end 4;
