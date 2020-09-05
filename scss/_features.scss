@@ -9,15 +9,19 @@
 }
 
 .feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+
 
     &__icon {
         height: 7.5rem;
         width: 7.5rem;
-        fill: $color-primary;
+        fill: $color-grey-dark-1;
     }
 
     &__text {
         font-size: 1.7rem;
+        color: red;
     }
 
 

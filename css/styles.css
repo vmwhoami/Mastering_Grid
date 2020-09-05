@@ -61,8 +61,12 @@ body {
 .feature__icon {
   height: 7.5rem;
   width: 7.5rem;
-  color: #101d2c;
+  fill: #54483A;
 }
+.feature__text {
+  font-size: 1.7rem;
+}
+
 .story__pictures {
   background-color: lightblue;
   grid-column: full-start/col-end 4;
