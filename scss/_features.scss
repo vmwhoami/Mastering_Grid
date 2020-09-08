@@ -6,22 +6,25 @@
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
 }
 
 .feature {
     display: grid;
     grid-template-columns: min-content 1fr;
-
+    row-gap: 1rem;
+    column-gap: 2.5rem;
 
     &__icon {
         height: 7.5rem;
         width: 7.5rem;
         fill: $color-grey-dark-1;
+        grid-row: 1/span 2;
     }
 
     &__text {
         font-size: 1.7rem;
-        color: red;
+
     }
 
 
