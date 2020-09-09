@@ -29,6 +29,29 @@ body {
   font-weight: 600;
 }
 
+.heading-2 {
+  font-size: 4rem;
+  font-style: italic;
+}
+.heading-2--light {
+  color: #f9f7f6;
+}
+.heading-2--dark {
+  color: #54483A;
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+  color: #c69963;
+  text-transform: uppercase;
+}
+.heading-3--light {
+  color: #f9f7f6;
+}
+.heading-3--dark {
+  color: #54483A;
+}
+
 .heading-4 {
   font-size: 1.8rem;
 }
@@ -37,6 +60,22 @@ body {
 }
 .heading-4--dark {
   color: #54483A;
+}
+
+.btn {
+  background-color: #c69963;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #B28451;
+  transition: all 0.3s;
 }
 
 .sidebar {
@@ -87,6 +126,7 @@ body {
 .story__content {
   background-color: lightseagreen;
   grid-column: col-start 5/full-end;
+  padding: 6rem 12rem;
 }
 
 .homes {
