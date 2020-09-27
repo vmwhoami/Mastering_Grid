@@ -218,9 +218,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.beaches .beach p {
+  font-size: 1.6rem;
+}
 .beaches .beach__location, .beaches .beach__area, .beaches .beach__price {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .beaches .beach__location svg, .beaches .beach__area svg, .beaches .beach__price svg {
   fill: #830000;
@@ -235,6 +239,7 @@ body {
 .gallery {
   background-color: maroon;
   grid-column: full-start/full-end;
+  height: 40vh;
 }
 
 .footer {
