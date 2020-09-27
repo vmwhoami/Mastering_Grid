@@ -167,6 +167,35 @@ body {
   font-style: italic;
 }
 
+.beaches {
+  grid-column: center-start/center-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem;
+}
+.beaches .beach {
+  background-color: #f9f7f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.beaches .beach__img {
+  width: 100%;
+  grid-column: 1/-1;
+}
+.beaches .beach__like {
+  width: 4rem;
+  height: 4rem;
+}
+.beaches .beach__name {
+  grid-column: 1/-1;
+}
+.beaches .beach___location svg, .beaches .beach__area svg, .beaches .beach__price svg {
+  fill: #830000;
+}
+.beaches .beach__btn {
+  grid-column: 1/-1;
+}
+
 .gallery {
   background-color: maroon;
   grid-column: full-start/full-end;

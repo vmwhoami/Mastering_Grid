@@ -5,7 +5,41 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 7rem;
 
-    .home {
+    .beach {
         background-color: $color-grey-light-1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        &__img {
+            width: 100%;
+            grid-column: 1/-1;
+        }
+
+
+        &__like {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        &__name {
+            grid-column: 1/-1;
+        }
+
+        &___location,
+        &__area,
+        &__price {
+            svg {
+                fill: rgb(131,
+                        0,
+                        0);
+            }
+
+            p {}
+
+        }
+
+        &__btn {
+            grid-column: 1/-1;
+        }
     }
 }
