@@ -112,7 +112,7 @@ body {
 
 .features {
   grid-column: center-start/center-end;
-  padding: 15rem;
+  padding: 15rem 10rem 0 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   row-gap: 2rem;
@@ -171,28 +171,64 @@ body {
   grid-column: center-start/center-end;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 7rem;
+  gap: 5rem;
 }
 .beaches .beach {
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 3.5rem;
 }
 .beaches .beach__img {
   width: 100%;
   grid-column: 1/-1;
+  grid-row: 1/2;
+  z-index: 2;
 }
 .beaches .beach__like {
-  width: 4rem;
-  height: 4rem;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  width: 3rem;
+  height: 3rem;
+  fill: red;
+  z-index: 4;
+  justify-self: end;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 .beaches .beach__name {
+  width: 80%;
+  justify-self: center;
+  align-self: end;
   grid-column: 1/-1;
+  grid-row: 1/2;
+  z-index: 20;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: #101d2c;
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1.25rem;
+  transform: translateY(50%);
 }
-.beaches .beach___location svg, .beaches .beach__area svg, .beaches .beach__price svg {
+.beaches .beach__price {
+  grid-column: 1/-1;
+  align-items: center;
+  justify-content: center;
+}
+.beaches .beach__location, .beaches .beach__area, .beaches .beach__price {
+  display: flex;
+  align-items: center;
+}
+.beaches .beach__location svg, .beaches .beach__area svg, .beaches .beach__price svg {
   fill: #830000;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
 }
-.beaches .beach__btn {
+.beaches .beach_btn {
   grid-column: 1/-1;
 }
 
