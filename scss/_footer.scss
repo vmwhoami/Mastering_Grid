@@ -3,7 +3,7 @@
             3,
             75);
     grid-column: full-start/full-end;
-    padding: 8rem;
+    padding: 8rem 8rem 1rem 8rem;
 }
 
 .nav {
@@ -35,4 +35,11 @@
                 65);
         transform: translateY(-3px);
     }
+}
+
+.copyright {
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 4rem;
 }

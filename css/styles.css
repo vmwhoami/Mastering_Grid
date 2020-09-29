@@ -98,6 +98,30 @@ body {
   background-color: #4a5fd8;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_btn {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+  margin-top: 4rem;
+}
+.nav_btn::before, .nav_btn::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+}
+.nav_btn::before {
+  transform: translateY(-1.5rem);
+}
+.nav_btn::after {
+  transform: translateY(1.3rem);
 }
 
 .header {
@@ -282,7 +306,7 @@ body {
 .footer {
   background-color: #1f034b;
   grid-column: full-start/full-end;
-  padding: 8rem;
+  padding: 8rem 8rem 1rem 8rem;
 }
 
 .nav {
@@ -306,6 +330,13 @@ body {
 .nav__link:hover, .nav__link:active {
   background-color: #040441;
   transform: translateY(-3px);
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 4rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
