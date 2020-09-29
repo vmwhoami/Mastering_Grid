@@ -6,7 +6,7 @@
     background-position: center;
     display: grid;
     grid-template-rows: 1fr min-content 6rem 1fr;
-    grid-template-columns: max-content;
+   
 
     row-gap: 1.5rem;
     padding: 8rem;
@@ -14,9 +14,16 @@
     justify-content: center;
 
     &__logo{
+        &--svg{
         fill: $color-grey-light-1;
+        width: 3rem;
          height: 5rem;
          justify-self: center;
+        }
+        &--text{
+            font-size: 3rem;
+            color: aliceblue;
+        }
     }
     &__seenon--text{
 

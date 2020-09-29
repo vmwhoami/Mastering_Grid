@@ -112,15 +112,18 @@ body {
   background-position: center;
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-columns: max-content;
   row-gap: 1.5rem;
   padding: 8rem;
   padding-top: 4rem;
   justify-content: center; }
-  .header__logo {
+  .header__logo--svg {
     fill: #f9f7f6;
+    width: 3rem;
     height: 5rem;
     justify-self: center; }
+  .header__logo--text {
+    font-size: 3rem;
+    color: aliceblue; }
   .header__svg {
     fill: aliceblue;
     height: 3rem; }
