@@ -5,7 +5,10 @@
     display: grid;
     justify-items: center;
     align-items: center;
-
+&__details{
+    display: grid;
+    align-items: center;
+}
     &__list {
         display: grid;
         grid-template-columns: min-content max-content;
@@ -47,4 +50,9 @@
         border-radius: 50%;
     }
 
+
+    &__info{
+        font-size: 1.4rem;
+        color: white;
+    }
 }
