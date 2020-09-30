@@ -198,12 +198,16 @@ body {
 .person {
   background-color: #111050;
   grid-column: col-start 7/full-end;
+  padding: 3rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 .person__list {
   display: grid;
   grid-template-columns: min-content max-content;
   column-gap: 2rem;
-  row-gap: 10vh;
+  row-gap: 5vh;
 }
 .person__img-1 {
   width: 7rem;
