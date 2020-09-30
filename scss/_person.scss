@@ -5,7 +5,11 @@
     display: grid;
     justify-items: center;
     align-items: center;
-&__details{
+
+    @media only screen and(max-width:$bp-medium){
+        grid-column: 1/-1;
+      }
+    &__details{
     display: grid;
     align-items: center;
 }
@@ -14,11 +18,14 @@
         grid-template-columns: min-content max-content;
         column-gap: 2rem;
         row-gap: 5vh;
+        @media only screen and(max-width:$bp-medium){
+            grid-template-columns: repeat(3, min-content max-content);
+          }
     }
 
     &__img-1 {
-        width: 7rem;
-        height: 7rem;
+       max-width: 7rem;
+        min-height: 7rem;
         background-color: red;
         background-image: url(../img/person-1.jpg);
         background-position: center;

@@ -4,10 +4,13 @@
     background-image: linear-gradient(rgba($color-primary-dark, 0.9), rgba($color-primary, 0.3)), url(../img/beach-4.jpg);
     background-size: cover;
     background-position: center;
+    @media only screen and(max-width:$bp-medium){
+        grid-column: 1/-1;
+      }
+   
     display: grid;
-    grid-template-rows: 1fr min-content 6rem 1fr;
-
-
+    grid-template-rows: 1fr min-content minmax(6rem,min-content)  1fr;
+    grid-template-columns: minmax(min-content,max-content);
     row-gap: 1.5rem;
     padding: 8rem;
     padding-top: 4rem;
