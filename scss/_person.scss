@@ -1,72 +1,71 @@
 .person {
-    background-color: rgb(17, 16, 80);
-    grid-column: col-start 7/full-end;
-    padding: 3rem;
+  background-color: rgb(17, 16, 80);
+  grid-column: col-start 7/full-end;
+  padding: 3rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 3rem;
+
+  @media only screen and(max-width: $bp-medium) {
+    grid-column: 1/-1;
+  }
+
+  &__details {
     display: grid;
-    justify-items: center;
     align-items: center;
-    gap: 3rem;
-    @media only screen and(max-width:$bp-medium){
-        grid-column: 1/-1;
-      }
+  }
 
-
-
-    &__details{
+  &__list {
     display: grid;
-    align-items: center;
-}
-    &__list {
-        display: grid;
-        grid-template-columns: min-content max-content;
-        column-gap: 2rem;
-        row-gap: 5vh;
-        @media only screen and(max-width:$bp-medium){
-            grid-template-columns: repeat(3, min-content max-content);
-          }
-          @media only screen and(max-width:$bp-small){
-            grid-template-columns: min-content max-content;
+    grid-template-columns: min-content max-content;
+    column-gap: 2rem;
+    row-gap: 5vh;
 
-          }
+    @media only screen and(max-width: $bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
     }
 
-    &__img-1 {
-       max-width: 7rem;
-        min-height: 7rem;
-        background-color: red;
-        background-image: url(../img/person-1.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 150%;
-        border-radius: 50%;
+    @media only screen and(max-width: $bp-small) {
+      grid-template-columns: min-content max-content;
     }
+  }
 
+  &__img-1 {
+    max-width: 7rem;
+    min-height: 7rem;
+    background-color: red;
+    background-image: url(../img/person-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+  }
 
-    &__img-2 {
-        width: 7rem;
-        height: 7rem;
-        background-color: red;
-        background-image: url(../img/person-2.jpg);
-        background-position: 50% 20%;
-        background-repeat: no-repeat;
-        background-size: 150%;
-        border-radius: 50%;
-    }
+  &__img-2 {
+    width: 7rem;
+    height: 7rem;
+    background-color: red;
+    background-image: url(../img/person-2.jpg);
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+  }
 
-    &__img-3 {
-        width: 7rem;
-        height: 7rem;
-        background-color: red;
-        background-image: url(../img/person-3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 150%;
-        border-radius: 50%;
-    }
+  &__img-3 {
+    width: 7rem;
+    height: 7rem;
+    background-color: red;
+    background-image: url(../img/person-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+  }
 
-
-    &__info{
-        font-size: 1.4rem;
-        color: white;
-    }
+  &__info {
+    font-size: 1.4rem;
+    color: white;
+  }
 }
