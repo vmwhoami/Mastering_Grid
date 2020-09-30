@@ -5,9 +5,9 @@
 
 .heading-1 {
   @extend .heading;
-color: $color-grey-light-1;
-font-size: 4rem;
-line-height: 1;
+  color: $color-grey-light-1;
+  font-size: 4rem;
+  line-height: 1;
 }
 
 .heading-2 {
@@ -28,7 +28,7 @@ line-height: 1;
 .heading-3 {
   @extend .heading;
   font-size: 1.6rem;
-  color: $color-primary;
+  color: white;
   text-transform: uppercase;
 
   &--light {
