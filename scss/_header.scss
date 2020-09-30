@@ -22,13 +22,14 @@
 
         &--svg {
             fill: $color-grey-light-1;
-            height: 3rem;
+            height: 4rem;
 
         }
 
         span {
             font-size: 4rem;
             color: aliceblue;
+            margin-left: -5px;
         }
     }
 
