@@ -18,8 +18,8 @@
 
 
 
-![screenshot](https://raw.githubusercontent.com/vmwhoami/annual-concert/work-branch/img/screenshot_desktop.jpg)
-![screenshot](https://raw.githubusercontent.com/vmwhoami/annual-concert/work-branch/img/screenshot_mobile.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Mastering_Grid/without-linter/img/full_desk_screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/vmwhoami/Mastering_Grid/without-linter/img/mobile_screenshot.jpg)
 
 
 This project covers the following HTML and CSS3 concepts
