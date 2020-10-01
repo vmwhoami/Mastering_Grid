@@ -36,7 +36,7 @@ This project covers the following HTML and CSS3 concepts
 
 
 ## Live Demo
-[Live Demo on GitHack](https://raw.githack.com/vmwhoami/annual-concert/work-branch/index.html)
+
 
 [Live Demo on Netlify](https://nostalgic-kilby-78f387.netlify.app/)
 
@@ -49,13 +49,11 @@ $ cd <folder>
 ```
 
 ```
-$ git clone https://github.com/vmwhoami/annual-concert
+$ git clone https://github.com/vmwhoami/Mastering_Grid
 
 ```
 ## Video presentation of the project
 
-
-[loom](https://www.loom.com/share/2f61cf46663a41d4910951da096f20a0)
 
 ## Author
 
