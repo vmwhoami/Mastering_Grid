@@ -1,0 +1,26 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "A project following a tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmwhoami/Mastering_Grid.git"
+  },
+  "author": "Vitalie Melnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmwhoami/Mastering_Grid/issues"
+  },
+  "homepage": "https://github.com/vmwhoami/Mastering_Grid#readme",
+  "devDependencies": {
+    "stylelint": "16.20.0",
+    "stylelint-config-recommended": "16.0.0"
+  },
+  "dependencies": {
+    "sass-migrator": "^2.3.2"
+  }
+}
