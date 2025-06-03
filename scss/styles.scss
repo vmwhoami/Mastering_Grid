@@ -1,12 +1,11 @@
-@import "base", "typography", "sidebar", "header", "person", "features", "story", "beaches", "gallery", "footer";
-
-//  @import "base";
-//  @import "typography";
-//  @import "sidebar";
-//  @import "header";
-//  @import "realtors";
-//  @import "features";
-//  @import "story";
-//  @import "homes";
-//  @import "gallery";
-//  @import "footer";
+// scss/_index.scss
+@forward "base";
+@forward "typography";
+@forward "sidebar";
+@forward "header";
+@forward "person";
+@forward "features";
+@forward "story";
+@forward "beaches";
+@forward "gallery";
+@forward "footer";
